@@ -17,11 +17,28 @@ ul {
 }
 
 a {
+    color: #e7ecef;
     text-decoration: none;
   }
 
+a:hover {
+    color: #FF4500;
+}
+
+/* Add margin or padding to create space between links in the 'right' class */
+.right {
+    margin-right: 80px; /* Adjust the value to control the spacing */
+}
+li {
+    margin-right: 25px;
+}
+
 .title {
     display: flex;
+}
+
+.title-container {
+    margin-left: 80px;
 }
 
 .main-text {
